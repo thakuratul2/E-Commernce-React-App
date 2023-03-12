@@ -1,13 +1,23 @@
 import React from 'react'
-import Footer from './components/Footer'
-import Header from './components/Header'
+import Home from './pages/Home'
+import About from './pages/About';
+import Contact from './pages/Contact';
+import { BrowserRouter as Router, Routes,Route } from 'react-router-dom'
+import Layout from './components/Layout'
 
 function App() {
   return (
     <>
-<div>App</div>
-    <Header/>
-    <Footer/>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Layout/>}>
+        <Route index element={<Home/>}/>
+        <Route path='/about' element={<About/>}/>
+        <Route path='/contact' element={<Contact/>}/>
+
+        </Route>
+      </Routes>
+    </Router>
     </>
     
   )
