@@ -26,7 +26,7 @@ Customer Care:
   <div className="row">
     <div className="col-2">
       <h6 className='header-text'>
-        <Link>E-Commernce | Atul Pratap Singh</Link>
+        <Link className='text-link'>E-Commernce | Atul Pratap Singh</Link>
       </h6>
     </div>
     <div className="col-5">

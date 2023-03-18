@@ -30,6 +30,9 @@ a{
 .header-text{
     font-size: 21px;
 }
+.text-link{
+    color: rgb(8, 241, 50);
+}
 .input-group-text{
     background-color:var(--color-febd69);
 }
