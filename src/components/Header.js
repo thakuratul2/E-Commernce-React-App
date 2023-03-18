@@ -1,4 +1,6 @@
 import React, { Fragment } from 'react'
+import { NavLink,Link } from 'react-router-dom'
+import {BsSearch} from 'react-icons/bs'
 
 function Header() {
   return (
@@ -18,6 +20,27 @@ Customer Care:
       </div>
     </div>
 
+    </header>
+    <header className="header-upper py-3">
+<div className="container-xxl">
+  <div className="row">
+    <div className="col-2">
+      <h6 className='header-text'>
+        <Link>E-Commernce | Atul Pratap Singh</Link>
+      </h6>
+    </div>
+    <div className="col-5">
+    <div className="input-group mb-3">
+  <input type="text" className="form-control" placeholder="Search Product Here" aria-label="Search Product Here" aria-describedby="basic-addon2"/>
+  <span className="input-group-text" id="basic-addon2"><BsSearch/></span>
+</div>
+
+    </div>
+    <div className="col-5">
+
+    </div>
+  </div>
+</div>
     </header>
     </Fragment>
   )
