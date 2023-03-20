@@ -36,4 +36,8 @@ a{
 .input-group-text{
     background-color:var(--color-febd69);
 }
+.options{
+    width: 35px;
+    height: 35px;
+}
 /* Header End */
